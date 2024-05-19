@@ -1,0 +1,3 @@
+! Title: Reddit NSFW Filter
+! Description: Shows only NSFW reults in reddit communities search
+reddit.com,old.reddit.com,new.reddit.com##[data-testid="search-community"]:not(.text-category-nsfw):not([icon-name="nsfw-fill"]):not([data-faceplate-tracking-context*="\"nsfw\":true"])
